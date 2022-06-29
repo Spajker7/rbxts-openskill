@@ -1,7 +1,7 @@
 {
   "name": "@rbxts/openskill",
   "version": "1.0.0",
-  "description": "",
+  "description": "Typescript types for OpenSkill Roblox Lua library",
   "main": "out/init.lua",
   "scripts": {
     "build": "rbxtsc",
@@ -9,13 +9,16 @@
     "prepublishOnly": "npm run build"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "spajk",
+  "license": "MIT",
   "types": "out/index.d.ts",
   "files": [
     "out",
     "!**/*.tsbuildinfo"
   ],
+  "repository": {
+    "url": "https://github.com/Spajker7/rbxts-openskill"
+  },
   "publishConfig": {
     "access": "public"
   },
