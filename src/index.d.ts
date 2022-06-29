@@ -23,7 +23,7 @@ interface OptionRate extends OptionProbability {
 	model?: Model;
 	score?: number[];
 	epsilon?: number;
-	gamma?: number;
+	gamma?: (c: number, sigmaSq: number, options?: OptionRate) => number;
 }
 
 interface OpenSkill {
